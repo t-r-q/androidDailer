@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">Dialer</string>
+    <string name="dial">DIAL</string>
+
+    <string name="what_would_you_like_to_do">What would you like to do?</string>
+    <string name="map">MAP</string>
+    <string name="about">ABOUT</string>
+    <string name="call_list">CALL LIST</string>
+    <string name="this_is_the_dial_activity">This is the Dial activity</string>
+    <string name="this_is_call_list_activity">This is Call list activity</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="about_app">This app is supposed to mimic the keypad on a phone. The app will consist of activities to:"\n" "\n"
+                *- Enter numbers to dial "\n" *- See previously dialed numbers"\n"  "*- Change the keypad settings"  "\n"
+                "*- Show on a Map where previous " "calls are dialed from</string>
+
+    <string name="marker">Marker in Sydney</string>
+
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="Ok_text">OK</string>
+    <string name="about_dialog">About dialog</string>
+    <string name="toast_message">You have already seen the about message!</string>
+    <!-- Preference Titles -->
+    <string name="switchPreference_summary">Dialed telephone numbers are stored so they can be viewed later</string>
+    <string name="switchPreference_key">switch_preference_1</string>
+    <string name="switchPreference_title">Store numbers</string>
+    <string name="todo">TODO</string>
+    <string name="settings">Settings</string>
+    <string name="preference_title">Delete stored numbers</string>
+    <string name="preference_key">del_button_preference</string>
+    <string name="preference_summery">Delete stored telephone numbers from storage</string>
+
+    <!-- Messages Preferences -->
+
+    <string name="numb1_example">1</string>
+    <string name="text1_example">ABC</string>
+    <string name="numb2_example">2</string>
+    <string name="text2_example">DEF</string>
+    <string name="numb3_example">3</string>
+    <string name="text3_example">GHI</string>
+    <string name="title_dialpad_0">0</string>
+    <string name="message_dialpad_0">+</string>
+    <string name="title_dialpad_1">1</string>
+    <string name="title_dialpad_2">2</string>
+    <string name="message_dialpad_2">ABC</string>
+    <string name="title_dialpad_3">3</string>
+    <string name="message_dialpad_3">DEF</string>
+    <string name="title_dialpad_4">4</string>
+    <string name="message_dialpad_4">GHI</string>
+    <string name="title_dialpad_5">5</string>
+    <string name="message_dialpad_5">JKL</string>
+    <string name="title_dialpad_6">6</string>
+    <string name="message_dialpad_6">MNO</string>
+    <string name="title_dialpad_7">7</string>
+    <string name="message_dialpad_7">PQRS</string>
+    <string name="title_dialpad_8">8</string>
+    <string name="message_dialpad_8">TUV</string>
+    <string name="title_dialpad_9">9</string>
+    <string name="message_dialpad_9">WXYZ</string>
+    <string name="title_dialpad_star">✱</string>
+    <string name="title_dialpad_pound">#</string>
+    <string name="About_dialog">About dialog</string>
+    <string name="imageButton_call">Call button</string>
+    <string name="imageButton_del">delete text button</string>
+
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DialActivity">
+
+
+    <se.miun.taja1900.dt031g.dailer.Dialpad
+        android:id="@+id/dialpad_dial_activity"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.317" >
+
+        <ImageButton
+            android:id="@+id/call_button"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#226324"
+            android:contentDescription="@string/imageButton_call"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.992"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.107"
+            app:srcCompat="@android:drawable/ic_menu_call"
+            tools:ignore="RedundantDescriptionCheck" />
+    </se.miun.taja1900.dt031g.dailer.Dialpad>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

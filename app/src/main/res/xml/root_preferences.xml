@@ -1,0 +1,19 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:icon="@android:drawable/ic_menu_save"
+        android:key="@string/switchPreference_key"
+        android:summary="@string/switchPreference_summary"
+        android:title="@string/switchPreference_title" />
+
+    <Preference
+        android:key="@string/preference_key"
+        android:summary="@string/preference_summery"
+        android:title="@string/preference_title"
+        android:icon="@android:drawable/ic_menu_delete" />
+
+
+
+</PreferenceScreen>
